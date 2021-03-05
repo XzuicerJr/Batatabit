@@ -441,3 +441,30 @@ header img {
     vertical-align: text-bottom;
     margin-left: 8px;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    background-color: var(--bitcoin-orange);
+    width: 100%;
+    height: 150px;
+}
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+footer ul {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    list-style: none;
+}
+footer li {
+    margin: 10px 0;
+}
+footer a {
+    text-decoration: none;
+    color: var(--just-white);
+}
