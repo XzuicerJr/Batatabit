@@ -20,6 +20,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* HEADER */
 header {
     position: relative;
     display: flex;
@@ -85,12 +86,15 @@ header img {
     margin-left: 10px;
     background-image: url(../assets/icons/down-arrow.svg);
 }
+
+/* MAIN */
 .main {
     width: 100%;
     height: auto;
     background-color: var(--off-white);
 }
 
+/* EXCHANGE INFO */
 .main__exchange--container {
     width: 100%;
     height: auto;
@@ -231,6 +235,7 @@ header img {
     color: var(--warm-black);
 }
 
+/* PRODUCT DESCRIPTION */
 .main__product--detail {
     position: relative;
     width: 100%;
@@ -318,6 +323,7 @@ header img {
     color: #808080;
 }
 
+/* SECTION EXTRA */
 .bitcoin__img--container {
     width: 100%;
     min-width: 320px;
@@ -336,6 +342,7 @@ header img {
     color: var(--just-white);
 }
 
+/* PLANS */
 .main__plans--container {
     width: 100%;
     min-width: 320px;
