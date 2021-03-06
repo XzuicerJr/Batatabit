@@ -370,6 +370,16 @@ header img {
     color: #757575;
 }
 
+.plans__container--slider {
+    display: flex;
+    /* justify-content: center; */
+    height: 350px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 10px;
+}
+
 .plans__container--card {
     position: relative;
     scroll-snap-align: center;
@@ -377,11 +387,15 @@ header img {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.center--card {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .recommended {
     position: absolute;
@@ -447,6 +461,7 @@ footer {
     display: flex;
     background-color: var(--bitcoin-orange);
     width: 100%;
+    min-width: 320px;
     height: 150px;
 }
 footer section {
@@ -455,16 +470,16 @@ footer section {
     align-items: center;
     width: 50%;
 }
-footer ul {
+.left ul {
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
     list-style: none;
 }
-footer li {
+.left li {
     margin: 10px 0;
 }
-footer a {
+.left a {
     text-decoration: none;
     color: var(--just-white);
 }
